@@ -1,0 +1,10 @@
+function solveLinEquation(a=0,b=0,c=0){
+console.log(`Your equation is ${a}x + ${b} = ${c}`);
+let x = (c-b)/a;
+if (a != 0){
+return (`The solution is x = ${x}`);
+} else {
+return ('There is no solution for the equation')
+}
+}
+solveLinEquation(1,0,-3)
