@@ -1,0 +1,17 @@
+function solveQuadEquation(a=0,b=0,c=0) {
+console.log(`Your equation is ${a}x^2 + ${b}x + ${c}= 0`);
+let Delta = (b**2)-(4*a*c);
+let solutions = [];
+if (Delta == 0){
+let m1 = (-b)/(2*a);
+solutions.push(m1);
+} else if(Delta < 0){
+console.log('There is no solution for the equation');
+} else{
+let m2 = ((-b)-(Math.sqrt(Delta)))/(2*a);
+let m3 = ((-b)+(Math.sqrt(Delta)))/(2*a);
+solutions.push(m2,m3);
+}
+return solutions;
+}
+console.log(solveQuadEquation(1,7,12));
