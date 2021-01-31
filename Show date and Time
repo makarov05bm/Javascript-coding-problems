@@ -1,0 +1,4 @@
+function showDateTime(){
+let x = new Date();
+console.log(`${x.getDate()}/${x.getMonth()+1}/${x.getFullYear()} ${x.getHours()}:${x.getMinutes()}`);
+}
