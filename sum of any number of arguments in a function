@@ -1,0 +1,7 @@
+const anySum1 = (...x)=>{
+let sum0 = 0;
+for (const n of x){
+sum0 += n;
+}
+return sum0;
+}
