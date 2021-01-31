@@ -1,0 +1,9 @@
+function sumOfOddNumbers(x,y){
+let sum = 0;
+for (let k=x;k<=y;k++){
+if (k % 2 == 0){
+     sum += k;
+};
+}
+return sum;
+}
