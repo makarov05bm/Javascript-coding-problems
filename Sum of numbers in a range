@@ -1,0 +1,7 @@
+function sumOfNumbers(x,y){
+let sum = 0;
+for (let k=x;k<=y;k++){
+     sum += k;
+}
+return sum;
+}
