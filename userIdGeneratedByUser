@@ -1,0 +1,15 @@
+function userIdGeneratedByUser8(){
+let length = prompt('The length of the Ids');
+let number = prompt('How many Ids would you like to generate');
+let chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+for (let i=0;i<number;i++){
+function x(){
+   let result = '';
+   for (let j=0;j<length;j++){
+   result += chars.charAt(Math.floor(Math.random()*chars.length))
+   }
+return result;
+}
+console.log(x());
+}
+}
