@@ -1,0 +1,6 @@
+let fruits = ['banana', 'orange', 'mango', 'lemon'];
+let arr = [];
+for (let k=fruits.length-1;k>=0;k--){
+     arr.push(fruits[k]);
+}
+console.log(arr);
