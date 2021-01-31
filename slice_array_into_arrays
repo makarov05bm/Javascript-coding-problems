@@ -1,0 +1,22 @@
+const webTechs = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'Redux',
+  'Node',
+  'MongoDB'
+]
+
+let k = 0;
+let arr1 = [];
+let arr2 = [];
+
+for (num of webTechs){
+arr1.push(num,num.length);
+}
+
+while(k<arr1.length){
+  arr2.push(arr1.slice(k,k+2));
+  k += 2;
+}
